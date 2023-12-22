@@ -6,21 +6,19 @@ import java.util.Scanner;
 
 public class Massiv_del {
     public static void main(String[] args) {
-        String[] citis2;
-        citis2 = {"Москва", "Минск", "Киев", "Воронеж"};
+        ArrayList<String> Sitis = new ArrayList<>(Arrays.asList("Москва", "Минск", "Киев", "Воронеж"));
         Scanner scanner = new Scanner(System.in);
         System.out.println("Добавить город - Y/N");
         boolean yN = scanner.nextLine().equals("Y");
         if (yN) {
-            for (int i = 0; i < citis.length; i++) {
-                System.out.println("Введите название города");
-                String newCiti = scanner.nextLine();
-                citis[]+=new[]newCiti;
-                break;
-            }
+            System.out.println("Введите название города");
+            String newCiti = scanner.nextLine();
+            Sitis.add(newCiti);
         } else {
             System.out.println("Удалить город из массива? Y/N?");
+            String sitisRemuw = scanner.nextLine();
+            Sitis.remove(sitisRemuw);
         }
-        System.out.println(Arrays.toString(citis));
+        System.out.println(Sitis);
     }
 }
