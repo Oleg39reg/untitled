@@ -8,7 +8,7 @@ public class Massiv_del {
     public static void main(String[] args) {
         ArrayList<String> Sitis = new ArrayList<>(Arrays.asList("Москва", "Минск", "Киев", "Воронеж"));
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Добавить город - Y/N");
+        System.out.println("Добавить город? - Y/N");
         boolean yN = scanner.nextLine().equals("Y");
         if (yN) {
             System.out.println("Введите название города");

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a41829-a8fc-4319-af73-74e359fcd407" name="Changes" comment="Alishev_lessons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_11_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_11_Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tascs_HomeWork/Massiv_del.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tascs_HomeWork/Massiv_del.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tascs_HomeWork/calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tascs_HomeWork/calc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -54,9 +61,16 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Massiv_del">
+  <component name="RunManager" selected="Application.Lesson_11_Arrays">
     <configuration name="Lesson_10_Swithc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_10_Swithc" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_11_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_11_Arrays" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doWhile_task_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tascs_HomeWork.doWhile_task_5" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tascs_HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Massiv_del" />
+        <item itemvalue="Application.Lesson_11_Arrays" />
         <item itemvalue="Application.calc" />
+        <item itemvalue="Application.Massiv_del" />
         <item itemvalue="Application.Swithc_tasc_1" />
         <item itemvalue="Application.Lesson_10_Swithc" />
-        <item itemvalue="Application.doWhile_task_5" />
       </list>
     </recent_temporary>
   </component>
@@ -147,8 +148,38 @@
       <option name="project" value="LOCAL" />
       <updated>1703169676780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Alishev_lessons">
+      <created>1703263767928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703263767928</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alishev_lessons" />
