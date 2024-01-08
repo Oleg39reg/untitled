@@ -16,7 +16,7 @@ public class Lesson_14_ClassesAndObject {
 
 }
 
- class  Person {
+  class  Person {
     String name;
     int age;
 }
